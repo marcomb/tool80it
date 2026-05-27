@@ -511,6 +511,11 @@ h2 {
   gap: 0.75rem;
 }
 
+.mpai-badge .mpai-logo-boxes {
+  display: flex;
+  gap: 0.75rem;
+}
+
 .mpai-logo-box {
   width: 140px;
   display: grid;
@@ -524,6 +529,15 @@ h2 {
   width: 110px;
   height: auto;
   display: block;
+}
+
+a.mpai-logo-box {
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+a.mpai-logo-box:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
 }
 
 .mpai-role {

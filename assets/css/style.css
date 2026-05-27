@@ -400,6 +400,13 @@ h2 {
   align-items: center;
 }
 
+.about-logo {
+  height: 90px;
+  width: auto;
+  display: block;
+  margin-bottom: 1.75rem;
+}
+
 .about-text p {
   color: var(--light-sub);
   margin-bottom: 1rem;

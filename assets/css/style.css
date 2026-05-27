@@ -154,28 +154,18 @@ h2 {
 }
 .logo:hover { text-decoration: none; }
 
-.logo-mark {
-  display: grid;
-  place-items: center;
-  width: 36px; height: 36px;
-  border-radius: 8px;
-  background: var(--accent);
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-  color: #fff;
-  flex-shrink: 0;
+.logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.2s;
 }
-.logo-mark-sm { width: 28px; height: 28px; font-size: 0.65rem; }
-
-.logo-text {
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: var(--text-1);
-  letter-spacing: -0.3px;
+.logo-img:hover { opacity: 0.85; }
+.logo-img-footer {
+  height: 28px;
+  opacity: 0.7;
 }
-.logo-text strong { font-weight: 800; }
-.logo-text em { font-style: normal; color: var(--text-3); font-size: 0.85em; }
 
 /* Desktop nav */
 .site-nav {
@@ -522,16 +512,18 @@ h2 {
 }
 
 .mpai-logo-box {
-  width: 100px; height: 100px;
+  width: 140px;
   display: grid;
   place-items: center;
-  background: var(--bg-card);
-  border: 1px solid var(--border-lg);
+  padding: 1rem;
+  background: #fff;
   border-radius: var(--radius);
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--text-1);
-  letter-spacing: -1px;
+}
+
+.mpai-img {
+  width: 110px;
+  height: auto;
+  display: block;
 }
 
 .mpai-role {

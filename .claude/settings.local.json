@@ -17,7 +17,11 @@
       "PowerShell(Invoke-WebRequest -Uri \"https://www.tool80.it/wp-content/uploads/2022/08/Tool80srl.png\" -OutFile \"c:\\\\Users\\\\marco\\\\tool80it\\\\assets\\\\images\\\\tool80-logo.png\")",
       "PowerShell(Invoke-WebRequest -Uri \"https://mpai.community/wp-content/uploads/elementor/thumbs/MPAI-logo_orizzontale-p43qtf6isapmajdxlc9uf5lo1zsczvvb5m1dgl7wjm.png\" -OutFile \"c:\\\\Users\\\\marco\\\\tool80it\\\\assets\\\\images\\\\mpai-logo.png\")",
       "WebFetch(domain:www.mpeg.org)",
-      "PowerShell(Invoke-WebRequest -Uri \"https://www.mpeg.org/wp-content/uploads/2025/07/MPEG_RGB_1000px-scaled.png\" -OutFile \"c:\\\\Users\\\\marco\\\\tool80it\\\\assets\\\\images\\\\mpeg-logo.png\")"
+      "PowerShell(Invoke-WebRequest -Uri \"https://www.mpeg.org/wp-content/uploads/2025/07/MPEG_RGB_1000px-scaled.png\" -OutFile \"c:\\\\Users\\\\marco\\\\tool80it\\\\assets\\\\images\\\\mpeg-logo.png\")",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
